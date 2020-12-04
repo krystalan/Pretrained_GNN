@@ -5,8 +5,8 @@
 
 | Paper | Conference | Highlights |
 | :---: | :---: | :---: |
-| [GPT-GNN: Generative Pre-Training of Graph Neural Networks](https://arxiv.org/abs/2006.15437) | KDD 2020 | |
-| [Strategies for Pre-training Graph Neural Networks](https://openreview.net/forum?id=HJlWWJSFDH) | ICLR 2020 | |
+| [GPT-GNN: Generative Pre-Training of Graph Neural Networks](https://arxiv.org/abs/2006.15437) | KDD 2020 | 设计了两个预训练任务：attribute generation以及edge generation，且这两个任务迭代进行预测，以此来让GNN既学习到属性信息又学习到结构信息。 |
+| [Strategies for Pre-training Graph Neural Networks](https://openreview.net/forum?id=HJlWWJSFDH) | ICLR 2020 | 该文比较面向于生物和化学领域，提出了三个预训练任务：Attribute Masking, Context Prediction以及Supervised Attribute Prediction。其中Supervised Attribute Prediction是在Graph-level上对某一类的结点进行Attribute Prediction，所以通过这样的预训练任务，不仅让模型学习到如何捕获局部信息，还要让其捕获全局信息。 |
 | [Deep Graph Infomax](https://arxiv.org/abs/1809.10341) | ICLR 2019 | [TODO] 训练了一个结点编码器，最大化局部结点表示与池化图全局表示之间的互信息 |
 | [metapath2vec: Scalable Representation Learning for Heterogeneous Networks](https://dl.acm.org/doi/10.1145/3097983.3098036) | KDD 2017 | [TODO] 基于随机游走 |
 | [Network Embedding as Matrix Factorization: Unifying DeepWalk, LINE, PTE, and node2vec](https://arxiv.org/abs/1710.02971) | WSDM 2018 | [TODO] 基于随机游走 |
