@@ -16,7 +16,7 @@
 | [subgraph2vec: Learning Distributed Representations of Rooted Sub-graphs from Large Graphs](https://arxiv.org/abs/1606.08928) | KDD 2016 Workshop | [TODO] 探索了如何将结点表示泛化到不同的任务中 |
 | [LINE: Large-scale Information Network Embedding](https://arxiv.org/abs/1503.03578) | WWW 2015 | [TODO] 基于随机游走局部信息 |
 | [DeepWalk: online learning of social representations](https://arxiv.org/abs/1403.6652) | KDD 2014 | [TODO] 基于随机游走局部信息 |
-| [Heterogeneous Graph Transformer](https://dl.acm.org/doi/10.1145/3366423.3380027) | WWW 2020 | [TODO] 这篇不是预训练GNN工作，但我觉得挺有意思的，就放上来了，有空再读读 |
+| [Heterogeneous Graph Transformer](https://dl.acm.org/doi/10.1145/3366423.3380027) | WWW 2020 | 挺有趣的工作，虽然不属于Pretrained GNN，作者提出了一个在异质图上进行信息传递的注意力机制，使用到了self-attention的思想，分为KVQ矩阵，对于一对结点<s,e,t>s代表源结点，t代表目标结点，e代表边，原始的transformer只有一套KVQ，而本文对于不同类型的结点都有一套不同的KVQ，甚至不同类型的边也会影响到attention的计算。 |
 
 
 
