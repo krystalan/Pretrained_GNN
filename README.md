@@ -24,5 +24,5 @@
 | :---: | :---: | :---: |
 | [Heterogeneous Graph Transformer](https://dl.acm.org/doi/10.1145/3366423.3380027) | WWW 2020 | 挺有趣的工作，作者提出了一个在异质图上进行信息传递的注意力机制，使用到了self-attention的思想，分为KVQ矩阵，对于一对结点<s,e,t>s代表源结点，t代表目标结点，e代表边，原始的transformer只有一套KVQ，而本文对于不同类型的结点都有一套不同的KVQ，甚至不同类型的边也会影响到attention的计算。 |
 | [Graph Neural Networks: Taxonomy, Advances and Trends](https://arxiv.org/abs/2012.08752) | arXiv 2020 | GNN最新综述 | 
-| [Hierarchical Graph Capsule Network](https://arxiv.org/abs/2012.08734) | AAAI 2021 | [TODO] |
+| [Hierarchical Graph Capsule Network](https://arxiv.org/abs/2012.08734) | AAAI 2021 | 之前的GNN系列算法，主要都是通过聚合邻居结点的表示来更新中心结点的表示，这样的方法很难从更高的粒度来捕获一个子图的信息，所以对于一些需要比结点更粗粒度的信息的任务来说，原先的GNN算法是不充分的，因此作者在GNN的过程当中借鉴了胶囊网络来更好地捕获全局与局部的特征联系。 |
 
