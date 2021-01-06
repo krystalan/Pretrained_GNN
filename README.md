@@ -26,6 +26,7 @@
 | [Graph Neural Networks: Taxonomy, Advances and Trends](https://arxiv.org/abs/2012.08752) | arXiv 2020 | GNN最新综述 | 
 | [Binary Graph Neural Networks](https://arxiv.org/abs/2012.15823) | arXiv 2020 | [TODO] |
 | [Explainability in Graph Neural Networks: A Taxonomic Survey](https://arxiv.org/abs/2012.15445) | arXiv 2020 | [TODO] |
+| [Adaptive Graph Diffusion Networks with Hop-wise Attention](https://arxiv.org/abs/2012.15024) | arXiv 2020 |让GNN模型每次聚合信息时能够聚合稍远距离的其余结点的信息，在结点分类任务上进行了验证|
 | [Hierarchical Graph Capsule Network](https://arxiv.org/abs/2012.08734) | AAAI 2021 | 之前的GNN系列算法，主要都是通过聚合邻居结点的表示来更新中心结点的表示，这样的方法很难从更高的粒度来捕获一个子图的信息，所以对于一些需要比结点更粗粒度的信息的任务来说，原先的GNN算法是不充分的，因此作者在GNN的过程当中借鉴了胶囊网络来更好地捕获全局与局部的特征联系。 |
 | [Beyond Low-frequency Information in Graph Convolutional Networks](https://arxiv.org/abs/2101.00797) | arXiv 2021 | [TODO] |
 
